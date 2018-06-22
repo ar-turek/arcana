@@ -1,0 +1,14 @@
+[package]
+name = "arcana"
+version = "0.1.0"
+description = "Fast keyring implementing the DBus `org.freedesktop.secrets` protocol in pure Rust."
+authors = ["Artur Ciesielski <artur.ciesielski@gmail.com>"]
+repository = "https://github.com/ghost-of-turek/arcana"
+homepage = "https://ghost-of-turek.github.io/arcana"
+readme = "README.md"
+license = "MIT"
+categories = ["authentication", "cryptography", "database-implementations", "os::unix-apis"]
+keywords = ["dbus", "secrets"]
+
+[dependencies]
+dbus = "*"
